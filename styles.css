@@ -37,20 +37,30 @@ a {
 }
 
 #welcome-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   height: 100vh;
   text-align: center;
   border-bottom: 1px solid #000000;
   align-items: center;
   justify-content: center;
-  padding: 20% 0;
 }
 
 #welcome-section h1, span {
-  margin: auto;
+  margin: 0 auto;
+}
+
+#welcome-section span {
+  font-style: italic;
+}
+
+#welcome-section div {
+  margin: 5% 2%;
 }
 
 #welcome-section i {
-  margin: 5% 2%;
+  margin: 0.2rem;
 }
 
 #projects {
